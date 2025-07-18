@@ -4,17 +4,37 @@ This Power BI project visualizes retail sales data using the "Sample - Superstor
 
 ## 📊 Key Features
 
-- Monthly Sales & Profit trends  
-- Region-wise & State-wise performance  
-- Top Customers and Products  
-- Discount vs Profit analysis  
+The Retail Sales Dashboard provides visual insights into key sales metrics like:
+
+- Total Sales, Profit, and Quantity sold
+- Top-performing Categories and Sub-Categories
+- Regional Sales Trends
+- Monthly Sales Performance
+
+  It helps stakeholders make informed business decisions based on historical data.
+
+
+ ## 📁 Folder Structure
+
+- Retail-Sales-Dashboard/
+├── README.md
+├── .gitignore
+├── Retail_Sales_Dashboard_Final.pbix # Power BI file
+├── dax/
+│ └── Measures.dax # DAX formulas used
+├── powerquery/
+│ └── Transformations.pq # Power Query steps
+└── data/
+└── Sample - Superstore.csv # Sample dataset used
+
 
 ## ⚙️ Tools Used
 
-- Power BI  
-- DAX (for calculated columns & measures)  
-- Power Query (for data transformations)  
-- CSV Data Source  
+**Power BI Desktop**
+- **DAX**
+- **Power Query**
+- **Superstore dataset**
+
 
 ## 🧠 Measures Used
 
@@ -31,15 +51,15 @@ This Power BI project visualizes retail sales data using the "Sample - Superstor
 
 ## 🚀 How to Use
 
-1. Clone this repository  
-2. Open the `.pbix` file in Power BI Desktop  
+1. Clone this repository or download the ZIP.
+2. Open `Retail_Sales_Dashboard_Final.pbix` in Power BI Desktop.
 3. Explore the dashboard and visuals  
 
 ---
 
 ## 📬 Contact
 
-**Chanchal Chanchal**  
+**Chanchal**  
 LinkedIn:www.linkedin.com/in/
 chanchal-aa0101296
 
