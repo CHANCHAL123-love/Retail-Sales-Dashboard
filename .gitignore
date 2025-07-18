@@ -1,0 +1,14 @@
+# Ignore temporary, backup, or log files
+*.tmp
+*.bak
+*.log
+*.csv~
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings folder
+.vscode/
+
+# Ignore system files
+ehthumbs.db
+desktop.ini
