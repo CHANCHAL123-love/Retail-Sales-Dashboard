@@ -1,0 +1,13 @@
+Total Sales = SUM('Sample - Superstore'[Sales])
+
+Total Profit = SUM('Sample - Superstore'[Profit])
+
+Total Orders = DISTINCTCOUNT('Sample - Superstore'[Order ID])
+
+MonthYear = FORMAT('Sample - Superstore'[Order Date], "MMM yyyy")
+
+MonthYearNum = YEAR('Sample - Superstore'[Order Date]) * 100 + MONTH('Sample - Superstore'[Order Date])
+
+
+
+
